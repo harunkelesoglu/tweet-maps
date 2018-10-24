@@ -1,0 +1,77 @@
+{
+    "SocialSensorResults":[
+        {
+            "id":1,
+            "Tweet":"Kadıköyde #dünyakadınlargünü için çoşkulu kalabalık polis eşiliğinde yürüyüş düzenlendi",
+            "Latitude": "40.8747",
+            "Longitude": "29.1294",
+            "Location":"Kadıköy Kıraathanesi",
+            "DateTime":"29 Kasım 14:00"
+        },
+        {
+            "id":2,
+            "Tweet":"Kadıköyde #dünyakadınlargünü için çoşkulu kalabalık polis eşiliğinde yürüyüş düzenlendi",
+            "Latitude": "41.1864 ",
+            "Longitude": "28.738",
+            "Location":"Kadıköy Kıraathanesi",
+            "DateTime":"29 Kasım 14:00"
+        },
+        {
+            "id":3,
+            "Tweet":"Kadıköyde #dünyakadınlargünü için çoşkulu kalabalık polis eşiliğinde yürüyüş düzenlendi",
+            "Latitude": "41.0341",
+            "Longitude": "28.8330",
+            "Location":"Kadıköy Kıraathanesi",
+            "DateTime":"29 Kasım 14:00"
+        },
+        {
+            "id":4,
+            "Tweet":"Kadıköyde #dünyakadınlargünü için çoşkulu kalabalık polis eşiliğinde yürüyüş düzenlendi",
+            "Latitude": "39.925533",
+            "Longitude": "32.866287",
+            "Location":"Kadıköy Kıraathanesi",
+            "DateTime":"29 Kasım 14:00"
+        },
+        {
+            "id":5,
+            "Tweet":"Kadıköyde #dünyakadınlargünü için çoşkulu kalabalık polis eşiliğinde yürüyüş düzenlendi",
+            "Latitude": "39.9533 ",
+            "Longitude": "32.8612",
+            "Location":"Kadıköy Kıraathanesi",
+            "DateTime":"29 Kasım 14:00"
+        },
+        {
+            "id":6,
+            "Tweet":"Kadıköyde #dünyakadınlargünü için çoşkulu kalabalık polis eşiliğinde yürüyüş düzenlendi",
+            "Latitude": "37",
+            "Longitude": "35.321333",
+            "Location":"Kadıköy Kıraathanesi",
+            "DateTime":"29 Kasım 14:00"
+        },
+        {
+            "id":7,
+            "Tweet":"Kadıköyde #dünyakadınlargünü için çoşkulu kalabalık polis eşiliğinde yürüyüş düzenlendi",
+            "Latitude": "36.854936",
+            "Longitude": "28.270878",
+            "Location":"Kadıköy Kıraathanesi",
+            "DateTime":"29 Kasım 14:00"
+        },
+        {
+            "id":8,
+            "Tweet":"Kadıköyde #dünyakadınlargünü için çoşkulu kalabalık polis eşiliğinde yürüyüş düzenlendi",
+            "Latitude": "40.549926",
+            "Longitude": "34.953724",
+            "Location":"Kadıköy Kıraathanesi",
+            "DateTime":"29 Kasım 14:00"
+        },
+        {
+            "id":9,
+            "Tweet":"Kadıköyde #dünyakadınlargünü için çoşkulu kalabalık polis eşiliğinde yürüyüş düzenlendi",
+            "Latitude": "39.750359",
+            "Longitude": "37.015598",
+            "Location":"Kadıköy Kıraathanesi",
+            "DateTime":"29 Kasım 14:00"
+        }
+    
+    ]
+}
