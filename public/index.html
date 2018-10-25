@@ -235,7 +235,7 @@
               return `<a href="${link}" target="_blank">Link</a>`
           });
           tweet.Tweet=tweet.Tweet.replace(/(\#([A-Z]|[a-z]|[^\x00-\x7F])+)/gi,function(hashtag){
-            return `<a href="https://twitter.com/hashtag/${hashtag.replace(/\#/g, )}" target="_blank">${hashtag}</a>`;
+            return `<a href="https://twitter.com/hashtag/${hashtag.replace(/\#/g,'')}" target="_blank">${hashtag}</a>`;
           })
           tweet.Tweet=tweet.Tweet.replace(/(\@([A-Z]|[a-z]|[^\x00-\x7F])+)/gi,function(profile){
             return `<a href="https://twitter.com/${profile}" target="_blank">${profile}</a>`;
