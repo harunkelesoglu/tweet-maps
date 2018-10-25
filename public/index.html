@@ -29,7 +29,8 @@
     }
 
     .infowindow p {
-      color: gray;
+      color: #737373;
+      font-weight: bold;
     }
 
     /* Optional: Makes the sample page fill the window. */
@@ -48,6 +49,7 @@
   <script>
     var BASE_URL = 'http://195.87.138.221:443/socialSensor.json';
     var FAKE_URL = 'http://localhost:3000/SocialSensorResults';
+    var SERVER_URL = 'http://localhost:3000/tweets';
 
     function initMap() {
       var map = new google.maps.Map(document.getElementById('map'), {
@@ -220,15 +222,24 @@
         origin: new google.maps.Point(0, 0), // origin
         anchor: new google.maps.Point(0, 0) // anchor
       };
-      axios(FAKE_URL, {
+      axios('/tweets', {
         method: 'GET',
         mode: 'no-cors',
       }).then(response => {
-        debugger;
-        // const tweets = response.data.SocialSensorResults;
-        const tweets = response.data;
+         
+        const tweets = response.data.SocialSensorResults;
+        // const tweets = response.data;
         var infowindow = new google.maps.InfoWindow();
         var markers = tweets.map(function (tweet, index) {
+          tweet.Tweet=tweet.Tweet.replace(/\bhttps?:\/\/\S+/gi,function(link){
+              return `<a href="${link}" target="_blank">Link</a>`
+          });
+          tweet.Tweet=tweet.Tweet.replace(/(\#([A-Z]|[a-z]|[^\x00-\x7F])+)/gi,function(hashtag){
+            return `<a href="https://twitter.com/hashtag/${hashtag.replace(/\#/g, )}" target="_blank">${hashtag}</a>`;
+          })
+          tweet.Tweet=tweet.Tweet.replace(/(\@([A-Z]|[a-z]|[^\x00-\x7F])+)/gi,function(profile){
+            return `<a href="https://twitter.com/${profile}" target="_blank">${profile}</a>`;
+          })
           var marker = new google.maps.Marker({
             map: map,
             icon: icon,

@@ -1,0 +1,18 @@
+
+> tweets@1.0.0 start /Users/admin/Projects/tweets
+> nodemon server.js
+
+[33m[nodemon] 1.18.4[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node server.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+
+> tweets@1.0.0 start /Users/admin/Projects/tweets
+> nodemon server.js
+
+[33m[nodemon] 1.18.4[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node server.js`[39m
+3002 listening
